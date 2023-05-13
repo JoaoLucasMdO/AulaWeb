@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificação</title>
+</head>
+<body>
+
+    <h1>Verificando Saldo Devedor</h1>
+    
+<div>
+<label for="contrato">Valor do Contrato</label>
+<input type="text" id="contrato">
+<br>
+<label for="pago">Valor pago</label>
+<input type="text" id="pago">
+<br>
+<button onclick="calcular()">Verificar Dívida</button>
+<p id="saldo">Saldo: </p>
+</div>
+
+<script>
+function calcular(){
+    n1= Number(document.getElementById("contrato").value)
+    n2= Number(document.getElementById("pago").value)
+    resto= n2 - n1
+    document.getElementById("saldo").innerHTML += resto
+    if(resto<0){
+    document.getElementById("saldo").style.color="red"}
+    if(resto>=0){
+    document.getElementById("saldo").style.color="green"}
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+h2{
+color:rgba(6, 45, 143, 0.767);
+}
+body{
+background-color: rgb(231, 146, 146);
+
+}
+#audios{
+    background-color: rgb(255, 184, 4);
+    border: 4px groove rgb(234, 114, 28);
+    border-radius: 10px;
+    width: 70%;
+    margin: 10px auto 10px auto;
+    padding: 1px 1px 1px 1px;
+}
+
+#videos{
+    background-color: greenyellow;
+    border: 4px outset rgb(72, 255, 151);
+    border-radius: 10px;
+    width: 70%;
+    margin: 0px auto 0px auto;
+    padding: 1px;
+}
+
+nav ul{
+    list-style-type:none;
+    
+}
+
+nav ul li{
+    display:inline;
+    color: rgb(16, 0, 79);
+    background-color: rgb(105, 105, 253);
+    border: 3px ridge blueviolet;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 3px 2px 3px 2px;
+}
+
+nav ul a{
+text-decoration: none;
+}
+nav ul a li:hover{
+background-color: darkkhaki;
+}

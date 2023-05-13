@@ -1,0 +1,42 @@
+body{
+background-image: url(IMG/pizza.jpg);
+image-rendering: optimizeQuality;
+background-size:100%;
+background-position:center;
+}
+
+table{
+    background-color: rgb(5, 185, 235);
+    margin-left: 49.5%;
+    margin-right: 49.5%;
+    width: 250px;
+    border-collapse: collapse;
+}
+
+table thead th{
+text-align: center;
+    border: 5px rgb(254, 13, 13) ridge;
+
+
+}
+table tbody td{
+text-align: center;
+    border: 5px rgb(254, 13, 13) ridge;
+}
+table tfoot{
+    border: 5px rgb(254, 13, 13) ridge;
+    text-align: center;
+}
+table caption{
+    border: 5px rgb(254, 13, 13) ridge;
+}
+
+
+tr:nth-child(even){
+background-color: rgb(74, 33, 255);
+
+}
+
+#Prom{
+font-size: 20px;
+}

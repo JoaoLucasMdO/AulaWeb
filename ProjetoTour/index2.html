@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="cont">
+        <h3>ViagemTourSonho</h3>
+        <span id="hora">Hora:</span>
+    </div>
+<form id="formulario">
+
+    <fieldset style="border: none;">
+
+        
+            <input type="text"
+            placeholder="Informe seu nome"
+            name="nome"
+            id="nome">
+
+            <label for="destino">Destino:</label>
+            <select name="Destino" id="dest">
+                <option value="2000">Curitiba</option>
+                <option value="1500">Gramado</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        
+        <br>
+        <div>
+            <labels>Adicionais:</labels>
+
+            <input type="checkbox"
+            name="Adicionais"
+            value="50"
+            id="passeio"><label for="passeio">Passeio</label>
+            
+            <input type="checkbox"
+            name="Adicionais"
+            value="20"
+            id="traslado"><label for="traslado">Traslado</label>
+            
+        </div>
+        <br>
+        <div>
+            <label for="guia">Quer guia?</label>
+            <input type="radio" name="guia" id="sim" value="200"><label for="sim">Sim</label>
+            <input type="radio" name="guia" id="nao" value="0"checked><label for="nao">Não</label>
+        </div>
+
+    </fieldset>
+    
+    <p id="total">O total a pagar é: </p>
+
+    <div id="botoes">
+        <input type="button" value="Orçamento">
+        <input type="button" value="Limpar">
+        <input type="button" value="Imprimir">
+    </div>
+
+</form>
+</body>
+</html>

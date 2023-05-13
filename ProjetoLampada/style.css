@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    
+}
+#divLamp{
+    padding-left: 45%;
+    padding-right: auto;   
+}
+#botoes{
+    padding-left: 35%;
+    padding-right: auto;
+}
+#titulo{
+    border:none;
+}
+#botaoPreto{
+    background-color: black;
+    border: none;
+}
+#botaoBranco{
+    background-color: white;
+}

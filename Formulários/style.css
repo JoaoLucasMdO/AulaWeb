@@ -1,0 +1,49 @@
+body{
+background-color: rgb(209, 209, 209);
+
+}
+
+
+
+input{
+padding-left: 5px;
+border-radius: 5px;
+border: 3px ridge rgb(5, 5, 4);
+margin-right: auto;
+margin-left: auto;
+background-color: rgb(225, 223, 221);
+font-family:'Courier New';
+}
+
+label{
+font-family:'Courier New';
+margin-left: auto;
+}
+
+div{
+margin-top: 7px;
+}
+
+fieldset{
+    text-align: left;
+    display:grid;
+}
+
+#div2{
+    padding-top: 15px;
+}
+
+fieldset, legend{
+border:5px ridge rgb(0, 0, 0);
+margin-top: 15px;
+background-color: rgb(185, 185, 185);
+}
+
+#satis{
+display:inline;
+}
+
+#uf{
+display:unset; 
+}
+

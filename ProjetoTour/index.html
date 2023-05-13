@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIAGEMTOUR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="cont">
+        <h3>ViagemTour Sonho</h3>
+        <p>Hora: <span id="hora" >Hora:</span> </p>
+    </header>
+<form id="formulario">
+    <input type="text" 
+        placeholder="Informe seu nome"
+        id = "nome"
+        name = "nome">
+
+    <label for="destino">Destino:</label>
+    <select name="destino" id="destino">
+        <option value="2000"  >Gramado</option>
+        <option value="1500"  >Curitiba</option>
+        <option value="2500"  >Campo Grande</option>
+        <option value="1000"  >Jataí</option>
+    </select>
+    <br>
+    <label>Adicionais: </label>
+    <input type="checkbox" 
+    name="adicionais" 
+    value="50"
+    id="passeio" ><label for="passeio">Passeio</label>
+    <input type="checkbox" 
+    name="adicionais" 
+    value="20"
+    id="translado"><label for="translado">Translado</label>
+
+    <br>
+        <label for="guia">Quer guia?</label>
+    <input  type="radio" 
+        name="guia" 
+        id="guiaS" 
+        value="70">
+        <label for="guiaS">Sim</label>
+
+    <input type="radio" 
+        name="guia" 
+        id="guiaN" 
+        value="0" checked>
+        <label for="guiaN">Não</label>
+
+    <p id="total">Total a pagar: </p>
+    <input class="botn" type="button" value="Orçamento" onclick="orcar()">
+    <input class="botn" type="button" value="Limpar" onclick="limpar()" >
+    <input class="botn" type="button" value="Imprimir" onclick="imprimir()">
+
+</form>
+</body>
+</html>

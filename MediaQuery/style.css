@@ -1,0 +1,14 @@
+
+@media (orientation: landscape){
+#teste{
+    background-color: aqua;
+
+}
+}
+
+@media (orientation: portrait){
+    #teste{
+        background-color: rgb(255, 0, 0);
+    
+    }
+    }
