@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
+    <title>ProvaFinal</title>
+</head>
+<body>
+    <div id="promocoes">
+        <div id="tituloprom">
+            <h3>Escolha a promoção</h3>
+        </div>
+
+        <div id="prom1">
+            <label for="prom1"> Promoção 1 </label>
+            <img src="img/prom1.PNG" alt="">
+            <input type="radio" id="prom1" name="prom" value="40,00">
+            <p>R$ 40,00</p>
+
+        </div>
+
+        <div id="prom2">
+            <label for="prom2"> Promoção 2 </label>
+            <img src="img/prom2.PNG" alt="">
+            <input type="radio" id="prom2" name="prom" value="60,00">
+            <p>R$ 60,00</p>
+
+        </div>
+
+        <div id="prom3">
+            <label for="prom3"> Promoção 3 </label>
+            <img src="img/prom3.PNG" alt="">
+            <input type="radio" id="prom3" name="prom" value="60,00">
+            <p>R$ 60,00</p>
+        </div>
+    </div>
+
+    <form>
+        <fieldset>
+            <label for="qtd">Quantidade:</label> <input type="number" id="qtd" min="0" max="10" placeholder="0-10">
+        </fieldset>
+
+        <fieldset>
+            <label for="adicionais" >Adicionais:</label> 
+            <span>Batata R$10,00</span> <input class="form-check-input" type="checkbox" name="adicionais" id="batata" value="10,00"> 
+            <span>Cebola R$5,00</span> <input class="form-check-input" type="checkbox" name="adicionais" id="cebola" value="5,00"> 
+        </fieldset>
+        
+        <button type="button" class="btn btn-primary" id="calcular">Calcular</button>
+    </form>
+
+    <div id="resultados">
+    <p id="total">Total:</p>
+    <p id="desconto">Desconto:</p>
+    <p id="totdesc">Total com desconto:</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>  
+</body>
+</html>
