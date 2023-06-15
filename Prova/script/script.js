@@ -24,9 +24,9 @@ document.querySelector("#calcular").addEventListener("click", function(){
      
      
 
-document.querySelector("#total").innerHTML = `Total:${total}`
-document.querySelector("#desconto").innerHTML = `Desconto:${desconto}`
-document.querySelector("#totdesc").innerHTML = `Total com desconto:${totdescon}`
+document.querySelector("#total").innerHTML = `Total:R$${total}`
+document.querySelector("#desconto").innerHTML = `Desconto:R$${desconto}`
+document.querySelector("#totdesc").innerHTML = `Total com desconto:R$${totdescon}`
 })
 
 
